@@ -1,0 +1,44 @@
+{
+  "users": [
+    "userId",
+    "name",
+    "email",
+    "university",
+    "bio",
+    "skills[]",
+    "interests[]",
+    "points",
+    "badges[]"
+  ],
+  "projects": [
+    "projectId",
+    "title",
+    "description",
+    "category",
+    "requiredSkills[]",
+    "ownerId",
+    "members[]",
+    "status"
+  ],
+  "matches": [
+    "matchId",
+    "userId1",
+    "userId2",
+    "compatibility"
+  ],
+  "messages": [
+    "messageId",
+    "conversationId",
+    "senderId",
+    "text",
+    "timestamp"
+  ],
+  "tasks": [
+    "taskId",
+    "projectId",
+    "title",
+    "assignedTo",
+    "status",
+    "deadline"
+  ]
+}
